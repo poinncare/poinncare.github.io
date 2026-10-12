@@ -39,7 +39,7 @@ print(processor.batch_decode(out.sequences, skip_special_tokens=True)[0])
 ```
 
 Also included: `parakeet-tdt-0.6b-v3-he.q8_0.gguf` for [NeMo-Speech.cpp](https://github.com/NVIDIA/NeMo-Speech.cpp).
-For the [Vibe](https://thewh1teagle.github.io/vibe) transcription app, use [vibe-app/parakeet-tdt-0.6b-v3-he-gguf](https://huggingface.co/vibe-app/parakeet-tdt-0.6b-v3-he-gguf).
+For the Echo transcription app, see the [Echo Models guide](https://poinncare.github.io/echo/docs/?lang=ru-RU#models) for supported downloads.
 
 ## Results
 
