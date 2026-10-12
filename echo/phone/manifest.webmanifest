@@ -1,7 +1,7 @@
 {
 	"name": "Echo Phone",
 	"short_name": "Echo",
-	"description": "Record on your phone, transcribe on your Echo desktop.",
+	"description": "Записывайте звук на телефоне и передавайте его в Echo на компьютере.",
 	"start_url": "./",
 	"scope": "./",
 	"id": "./",

@@ -10,7 +10,7 @@
 // screen and survive a flaky network. It deliberately NEVER cache-firsts the
 // handoff wasm, which is rebuilt constantly during development.
 
-const CACHE = 'echo-phone-v1.0.0-icons-2026-10-13'
+const CACHE = 'echo-phone-v1.0.0-brand-2026-10-13'
 
 /** Directory this worker was served from, including a configured hosting subpath. */
 const BASE = new URL('./', self.location).href

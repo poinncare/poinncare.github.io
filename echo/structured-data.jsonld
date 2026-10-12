@@ -5,6 +5,6 @@
   "softwareVersion": "1.0.0",
   "operatingSystem": "macOS, Windows, Linux",
   "applicationCategory": "ProductivityApplication",
-  "url": "https://github.com/poinncare/Echo",
+	"url": "https://poinncare.github.io/echo/",
   "description": "Локальное распознавание речи из аудио и видео."
 }
