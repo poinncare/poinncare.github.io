@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Echo",
+  "softwareVersion": "1.0.0",
+  "operatingSystem": "macOS, Windows, Linux",
+  "applicationCategory": "ProductivityApplication",
+  "url": "https://github.com/poinncare/Echo",
+  "description": "Локальное распознавание речи из аудио и видео."
+}

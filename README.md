@@ -1,11 +1,11 @@
-# Echo Phone
+# Echo static site
 
-Public static GitHub Pages site for the Echo phone companion.
+Public static GitHub Pages site for Echo.
 
-- App: https://poinncare.github.io/echo/phone/
-- Published files: the built PWA in `echo/phone/`
+- Website: https://poinncare.github.io/echo/
+- Russian model documentation: https://poinncare.github.io/echo/docs/?lang=ru-RU#models
+- Phone app: https://poinncare.github.io/echo/phone/
+- Published files: the website in `echo/` and the phone PWA in `echo/phone/`
 
-This repository contains build output only. The application source stays in the
-private Echo repository. To update the page, build the `echo-phone-dist`
-artifact with the **Build Echo Phone** workflow and replace `echo/phone/`
-with the artifact contents.
+This repository contains build output only. The application source stays in
+the private Echo repository.
