@@ -10,7 +10,7 @@
 // screen and survive a flaky network. It deliberately NEVER cache-firsts the
 // handoff wasm, which is rebuilt constantly during development.
 
-const CACHE = 'echo-phone-v1.0.0-brand-2026-10-13'
+const CACHE = 'echo-phone-v1.0.0-app-icon-2026-10-13'
 
 /** Directory this worker was served from, including a configured hosting subpath. */
 const BASE = new URL('./', self.location).href
@@ -18,7 +18,7 @@ const BASE = new URL('./', self.location).href
 const at = (path) => new URL(path, BASE).href
 
 // Hashed Vite assets are cached on demand; only the entry document is precached.
-const SHELL = [at('.'), at('index.html'), at('manifest.webmanifest'), at('icons/icon-192.png'), at('icons/icon-512.png'), at('icons/icon-maskable-512.png'), at('icons/apple-touch-icon.png'), at('logo.png')]
+const SHELL = [at('.'), at('index.html'), at('manifest.webmanifest'), at('icons/icon-192.png?v=app-icon-20261013'), at('icons/icon-512.png?v=app-icon-20261013'), at('icons/icon-maskable-512.png?v=app-icon-20261013'), at('icons/apple-touch-icon.png?v=app-icon-20261013'), at('logo.png')]
 
 self.addEventListener('install', (event) => {
 	event.waitUntil(
